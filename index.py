@@ -30,7 +30,7 @@ class Migracion():
             "accept": '*/*',
             "accept-language": 'pt;q=0.7',
             "content-type": 'application/json',
-            'cookie': 'device_id=ebb8da8e-2ed6-4761-973b-90620c5e8414; notion_experiment_device_id=aed34408-4b00-47d4-a07a-79abd5649901; token_v2=v02%3Auser_token_or_cookies%3Ak8oBmSGaGcwGOP7C6ul7VQ65k-39W3MgBsaaGLQ2m9xqLcbuONKjn0MXfOiB7qllTU1J_ZrnDsmVz8fBm9QdKrkjlKYLN7tJdZjqJ3NdwPeXF25d8SxSgqn82zZPJTDWXqE3; notion_user_id=be696b5b-aac1-47ee-aee6-4bbf0059894c; NEXT_LOCALE=en-US; notion_users=[%22be696b5b-aac1-47ee-aee6-4bbf0059894c%22]; notion_check_cookie_consent=false; _cfuvid=LEVwAc_6FkHNEWBsulE5wdUe99.56QM3ggIAmoMLV9Q-1716651513431-0.0.1.1-604800000; notion_cookie_consent={%22id%22:%2282a41727-b652-4011-a0a4-13a4499c039a%22%2C%22permission%22:{%22necessary%22:true%2C%22preference%22:true%2C%22performance%22:false%2C%22targeting%22:false}%2C%22policy_version%22:%22v8%22}; notion_check_cookie_consent=true; __cf_bm=L3THcl6Q3zQ4idy08Z338GLDSGFryKIadrxChAuhTAs-1716654337-1.0.1.1-QCerdO2v5KbQz4rqzlHOkYOeR7IAyx11FPZnk7SSaf5PV36.UKGGgmVnPL2ng_S6PKmnV5Z4vynnCliAzH._cQ; notion_locale=en-US%2Fuser_choice',
+            'cookie': 'my',
             'notion-audit-log-platform': 'web',
             'notion-client-version': '23.13.0.242',
             'origin': 'https://www.notion.so',
@@ -75,7 +75,7 @@ class Migracion():
                 curl -s 'https://www.notion.so/signed/{sourcef}?table=block&id={id}&spaceId=2229cc5c-3568-44f8-b4cd-320e30c97a05&name={name}&download=true&userId=be696b5b-aac1-47ee-aee6-4bbf0059894c&cache=v2' \
                     -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8' \
                     -H 'accept-language: pt;q=0.6' \
-                    -H 'cookie: device_id=ebb8da8e-2ed6-4761-973b-90620c5e8414; notion_experiment_device_id=aed34408-4b00-47d4-a07a-79abd5649901; token_v2=v02%3Auser_token_or_cookies%3Ak8oBmSGaGcwGOP7C6ul7VQ65k-39W3MgBsaaGLQ2m9xqLcbuONKjn0MXfOiB7qllTU1J_ZrnDsmVz8fBm9QdKrkjlKYLN7tJdZjqJ3NdwPeXF25d8SxSgqn82zZPJTDWXqE3; notion_user_id=be696b5b-aac1-47ee-aee6-4bbf0059894c; NEXT_LOCALE=en-US; notion_users=[%22be696b5b-aac1-47ee-aee6-4bbf0059894c%22]; notion_check_cookie_consent=false; _cfuvid=hJ9.LOdH00Z2uRoNqOcy.dcUZ6hPaZuzGbkXqR1diww-1717410207808-0.0.1.1-604800000; notion_check_cookie_consent=true; notion_cookie_consent={{%22id%22:%2282a41727-b652-4011-a0a4-13a4499c039a%22%2C%22permission%22:{{%22necessary%22:true%2C%22preference%22:true%2C%22performance%22:false%2C%22targeting%22:false}}%2C%22policy_version%22:%22v8%22}}; notion_locale=en-US/user_choice; __cf_bm=UvZaNm.WUkPMKVAmMDtWFx4x7E8lZJgvkfIQ3idGZyM-1717440279-1.0.1.1-dTdIcSyMVFFHAiSVc2qr7SOj4r9TxLrk5kn_VK7xjydxl11nKAkHksPO_S_Dq7P0ioZXLt3txq0EhfyiRnRLaw' \
+                    -H 'cookie: myid' \
                     -H 'priority: u=0, i' \
                     -H 'sec-ch-ua: "Brave";v="125", "Chromium";v="125", "Not.A/Brand";v="24"' \
                     -H 'sec-ch-ua-mobile: ?0' \
@@ -97,7 +97,7 @@ class Migracion():
             headers = {
                 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
                 'accept-language': 'pt;q=0.9',
-                'cookie': 'file_token=v02%3Afile_token%3A3Z-87Q0BXSoLHwSZFVxTTQIq39D7tA3PkQvkY2igAH7Wn3zCg2oqU5y81Vl61mTZRF2XbUQ2aH1m_He9uwMI8OAqaU_8CBIaN5ezNRG_u0dlz38LpL75Txyu8tNmqE7Yd7F3lt-F-_HAXLkaaJaucaZMXpht; __cf_bm=OZ8AngzlPqlz6jN8q1PoVoLCR8MRjv6.foO70vP7ukc-1718419421-1.0.1.1-xBNhqnEJXlk4U_vKDjj.DbchUU0V08SSHGz9Q1TeS8_f6xTICQDwXcIrSLt_qpzYhQWZaeInHAwO.oU1yzxh_Q; _cfuvid=df1Nnm8oV0cS.jroJRD2406uHy1c3uw6hF5pF9IiiGk-1718419421814-0.0.1.1-604800000; notion_check_cookie_consent=true; notion_cookie_consent={%22id%22:%2282a41727-b652-4011-a0a4-13a4499c039a%22%2C%22permission%22:{%22necessary%22:true%2C%22preference%22:true%2C%22performance%22:false%2C%22targeting%22:false}%2C%22policy_version%22:%22v8%22}',
+                'cookie': 'mytoken',
                 'priority': 'u=0, i',
                 'referer': 'https://www.notion.so/',
                 'sec-ch-ua': '"Brave";v="125", "Chromium";v="125", "Not.A/Brand";v="24"',
