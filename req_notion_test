@@ -1,14 +1,8 @@
 
-
-     "https://file.notion.so/f/f/2229cc5c-3568-44f8-b4cd-320e30c97a05/5fe75176-1649-4040-a757-8a8f99c45df9/Untitled.png?id=5535d825-468e-4649-81b8-94b14cc2c030&amp;table=block&amp;spaceId=2229cc5c-3568-44f8-b4cd-320e30c97a05&amp;expirationTimestamp=1717718400000&amp;signature=ogpz8Lv4eJ2kDTb3wItg_95hwRQeI_4BmyuHvaC6Eog&amp;download=true&amp;downloadName=Untitled.png" 
-     #https://file.notion.so/f/f/2229cc5c-3568-44f8-b4cd-320e30c97a05/5fe75176-1649-4040-a757-8a8f99c45df9/Untitled.png?id=5535d825-468e-4649-81b8-94b14cc2c030&amp;table=block&amp;spaceId=2229cc5c-3568-44f8-b4cd-320e30c97a05&amp;expirationTimestamp=1717718400000&amp;signature=ogpz8Lv4eJ2kDTb3wItg_95hwRQeI_4BmyuHvaC6Eog&amp;download=true&amp;downloadName=Untitled.png 
-
-     https://file.notion.so/f/f/2229cc5c-3568-44f8-b4cd-320e30c97a05/5fe75176-1649-4040-a757-8a8f99c45df9/Untitled.png?id=5535d825-468e-4649-81b8-94b14cc2c030;table=block;spaceId=2229cc5c-3568-44f8-b4cd-320e30c97a05;expirationTimestamp=1717718400000;signature=ogpz8Lv4eJ2kDTb3wItg_95hwRQeI_4BmyuHvaC6Eog;download=true;downloadName=Untitled.png
-
 curl 'https://file.notion.so/f/f/2229cc5c-3568-44f8-b4cd-320e30c97a05/d7e06e6e-7a33-43c7-8c2d-d4a04d920e6c/Untitled.png?id=feb69ace-8e8c-4ae1-8223-433d5f823f82&table=block&spaceId=2229cc5c-3568-44f8-b4cd-320e30c97a05&expirationTimestamp=1717718400000&signature=lY1E7ZqTP1lKug5g2Q4sKg4OX-ZFpmvSMiKLyMPu_g8&download=true&downloadName=Untitled.png' \
   -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8' \
   -H 'accept-language: pt;q=0.9' \
-  -H 'cookie: file_token=v02%3Afile_token%3A3Z-87Q0BXSoLHwSZFVxTTQIq39D7tA3PkQvkY2igAH7Wn3zCg2oqU5y81Vl61mTZRF2XbUQ2aH1m_He9uwMI8OAqaU_8CBIaN5ezNRG_u0dlz38LpL75Txyu8tNmqE7Yd7F3lt-F-_HAXLkaaJaucaZMXpht; _cfuvid=Aj09_PNaLrGyLyP8dOWUL2K7dn2sO8FrJL9plPMXzgg-1717605336524-0.0.1.1-604800000; __cf_bm=YzcZ6JGTIC3erXYcfF1nV.6CzF4IX5kVNl5crqpshYc-1717608991-1.0.1.1-4FioOAKNsBsXDsFPYfA7YoTvxm_VMoxB_MuJdIrZReJsUdHzUwnjV98fR6pqKiLwI4rbEccHakJqKCGge0tEbg; notion_cookie_consent={%22id%22:%2282a41727-b652-4011-a0a4-13a4499c039a%22%2C%22permission%22:{%22necessary%22:true%2C%22preference%22:true%2C%22performance%22:false%2C%22targeting%22:false}%2C%22policy_version%22:%22v8%22}; notion_check_cookie_consent=true' \
+  -H 'cookie: mytoken' \
   -H 'priority: u=0, i' \
   -H 'referer: https://www.notion.so/' \
   -H 'sec-ch-ua: "Brave";v="125", "Chromium";v="125", "Not.A/Brand";v="24"' \
@@ -23,14 +17,10 @@ curl 'https://file.notion.so/f/f/2229cc5c-3568-44f8-b4cd-320e30c97a05/d7e06e6e-7
   -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'
 
 
-
-
-
-
 curl 'https://www.notion.so/signed/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F2229cc5c-3568-44f8-b4cd-320e30c97a05%2Fd7e06e6e-7a33-43c7-8c2d-d4a04d920e6c%2FUntitled.png?table=block&id=feb69ace-8e8c-4ae1-8223-433d5f823f82&spaceId=2229cc5c-3568-44f8-b4cd-320e30c97a05&name=Untitled.png&download=true&userId=be696b5b-aac1-47ee-aee6-4bbf0059894c&cache=v2' \
   -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8' \
   -H 'accept-language: pt;q=0.6' \
-  -H 'cookie: device_id=ebb8da8e-2ed6-4761-973b-90620c5e8414; notion_experiment_device_id=aed34408-4b00-47d4-a07a-79abd5649901; token_v2=v02%3Auser_token_or_cookies%3Ak8oBmSGaGcwGOP7C6ul7VQ65k-39W3MgBsaaGLQ2m9xqLcbuONKjn0MXfOiB7qllTU1J_ZrnDsmVz8fBm9QdKrkjlKYLN7tJdZjqJ3NdwPeXF25d8SxSgqn82zZPJTDWXqE3; notion_user_id=be696b5b-aac1-47ee-aee6-4bbf0059894c; NEXT_LOCALE=en-US; notion_users=[%22be696b5b-aac1-47ee-aee6-4bbf0059894c%22]; notion_check_cookie_consent=false; _cfuvid=hJ9.LOdH00Z2uRoNqOcy.dcUZ6hPaZuzGbkXqR1diww-1717410207808-0.0.1.1-604800000; notion_check_cookie_consent=true; notion_cookie_consent={%22id%22:%2282a41727-b652-4011-a0a4-13a4499c039a%22%2C%22permission%22:{%22necessary%22:true%2C%22preference%22:true%2C%22performance%22:false%2C%22targeting%22:false}%2C%22policy_version%22:%22v8%22}; notion_locale=en-US/user_choice; __cf_bm=UvZaNm.WUkPMKVAmMDtWFx4x7E8lZJgvkfIQ3idGZyM-1717440279-1.0.1.1-dTdIcSyMVFFHAiSVc2qr7SOj4r9TxLrk5kn_VK7xjydxl11nKAkHksPO_S_Dq7P0ioZXLt3txq0EhfyiRnRLaw' \
+  -H 'cookie: mytoken' \
   -H 'priority: u=0, i' \
   -H 'sec-ch-ua: "Brave";v="125", "Chromium";v="125", "Not.A/Brand";v="24"' \
   -H 'sec-ch-ua-mobile: ?0' \
@@ -44,12 +34,10 @@ curl 'https://www.notion.so/signed/https%3A%2F%2Fprod-files-secure.s3.us-west-2.
   -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'
 
 
-
-
 curl 'https://file.notion.so/f/f/2229cc5c-3568-44f8-b4cd-320e30c97a05/8626ecd7-a940-4b65-92ca-fd6774ec4c9b/Untitled.png?id=add65c18-3288-4374-bae2-e6493a220341&table=block&spaceId=2229cc5c-3568-44f8-b4cd-320e30c97a05&expirationTimestamp=1718323200000&signature=-tSKLE9fiBGTD9wYfz8kPMYfLnc-vtPcpDXbHBiiB4Y&download=true&downloadName=Untitled.png' \
   -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8' \
   -H 'accept-language: pt;q=0.8' \
-  -H 'cookie: file_token=v02%3Afile_token%3A3Z-87Q0BXSoLHwSZFVxTTQIq39D7tA3PkQvkY2igAH7Wn3zCg2oqU5y81Vl61mTZRF2XbUQ2aH1m_He9uwMI8OAqaU_8CBIaN5ezNRG_u0dlz38LpL75Txyu8tNmqE7Yd7F3lt-F-_HAXLkaaJaucaZMXpht; _cfuvid=2QD6HR68qZa0.bkM9Mu.tbt.lvr44dtkZ6Yg_uaUWuM-1718227699796-0.0.1.1-604800000; __cf_bm=G.qBXSJ4DAgD9Dcw3MKOzyrRLmVZNtWTm2o7PckxGD8-1718228599-1.0.1.1-Ttp786xD1mYFRTqwnvDm31Jl_UyIWz8.ee77BMk4EOavB70URXubBBouaKbL6b9eZju36Yyjynu2TRafyUsThw' \
+  -H 'cookie: mytoken' \
   -H 'priority: u=0, i' \
   -H 'referer: https://www.notion.so/' \
   -H 'sec-ch-ua: "Brave";v="125", "Chromium";v="125", "Not.A/Brand";v="24"' \
@@ -64,17 +52,11 @@ curl 'https://file.notion.so/f/f/2229cc5c-3568-44f8-b4cd-320e30c97a05/8626ecd7-a
   -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'
 
 
-
-
-
-
-
-
 curl 'https://www.notion.so/api/v3/loadCachedPageChunks' \
   -H 'accept: */*' \
   -H 'accept-language: pt;q=0.8' \
   -H 'content-type: application/json' \
-  -H 'cookie: device_id=ebb8da8e-2ed6-4761-973b-90620c5e8414; notion_experiment_device_id=aed34408-4b00-47d4-a07a-79abd5649901; token_v2=v02%3Auser_token_or_cookies%3Ak8oBmSGaGcwGOP7C6ul7VQ65k-39W3MgBsaaGLQ2m9xqLcbuONKjn0MXfOiB7qllTU1J_ZrnDsmVz8fBm9QdKrkjlKYLN7tJdZjqJ3NdwPeXF25d8SxSgqn82zZPJTDWXqE3; notion_user_id=be696b5b-aac1-47ee-aee6-4bbf0059894c; NEXT_LOCALE=en-US; notion_users=[%22be696b5b-aac1-47ee-aee6-4bbf0059894c%22]; _cfuvid=TWizlXMInJcil6sUfhuoBo3mcXokgkt4YQJ6u_BjgSQ-1717853805456-0.0.1.1-604800000; notion_cookie_consent={%22id%22:%2282a41727-b652-4011-a0a4-13a4499c039a%22%2C%22permission%22:{%22necessary%22:true%2C%22preference%22:true%2C%22performance%22:false%2C%22targeting%22:false}%2C%22policy_version%22:%22v8%22}; notion_check_cookie_consent=true; __cf_bm=EBn7exS7uLVxu3Wtvg3fjgXijqG3ykECVDM08_F3PRQ-1717898335-1.0.1.1-Gw5UCx8h1i8n4k2X.i5SNbh5E0Xdw1PdMLYft3LBzeM.Km46I0MX8f9yxzPoTBDuM01RcuFf56TDyo2AdiHg9w; notion_locale=en-US/user_choice' \
+  -H 'cookie: mytoken' \
   -H 'notion-audit-log-platform: web' \
   -H 'notion-client-version: 23.13.0.262' \
   -H 'origin: https://www.notion.so' \
@@ -93,16 +75,11 @@ curl 'https://www.notion.so/api/v3/loadCachedPageChunks' \
   --data-raw '{"requests":[{"page":{"id":"1e771621-077c-4769-a470-6ab623cf3a71","spaceId":"2229cc5c-3568-44f8-b4cd-320e30c97a05"},"limit":25,"chunkNumber":0,"cursor":{"stack":[]},"verticalColumns":false},{"page":{"id":"105bf2a6-dddc-4453-93ca-fb32d049d9eb","spaceId":"2229cc5c-3568-44f8-b4cd-320e30c97a05"},"limit":25,"chunkNumber":0,"cursor":{"stack":[]},"verticalColumns":false},{"page":{"id":"b1b0681e-b61b-4dee-b8bd-fcc12f181536","spaceId":"2229cc5c-3568-44f8-b4cd-320e30c97a05"},"limit":25,"chunkNumber":0,"cursor":{"stack":[]},"verticalColumns":false},{"page":{"id":"bef29241-fd27-4caa-9998-14ff5461124f","spaceId":"2229cc5c-3568-44f8-b4cd-320e30c97a05"},"limit":25,"chunkNumber":0,"cursor":{"stack":[]},"verticalColumns":false},{"page":{"id":"1f7d4d09-3a06-4c4b-ba4c-4a9b07b7498e","spaceId":"2229cc5c-3568-44f8-b4cd-320e30c97a05"},"limit":25,"chunkNumber":0,"cursor":{"stack":[]},"verticalColumns":false},{"page":{"id":"17423e5f-4b58-40fd-a039-6cd00c08c4bd","spaceId":"2229cc5c-3568-44f8-b4cd-320e30c97a05"},"limit":25,"chunkNumber":0,"cursor":{"stack":[]},"verticalColumns":false},{"page":{"id":"485a4a33-e4b9-41c3-ab62-aefd1a89a894","spaceId":"2229cc5c-3568-44f8-b4cd-320e30c97a05"},"limit":25,"chunkNumber":0,"cursor":{"stack":[]},"verticalColumns":false},{"page":{"id":"55c9e041-fd66-49b5-9216-39a463a70eb4","spaceId":"2229cc5c-3568-44f8-b4cd-320e30c97a05"},"limit":25,"chunkNumber":0,"cursor":{"stack":[]},"verticalColumns":false},{"page":{"id":"bd00810d-ff98-4f9b-889e-7149ce9e3afe","spaceId":"2229cc5c-3568-44f8-b4cd-320e30c97a05"},"limit":25,"chunkNumber":0,"cursor":{"stack":[]},"verticalColumns":false},{"page":{"id":"5547cefe-5ecc-4232-9553-10b64117f34b","spaceId":"2229cc5c-3568-44f8-b4cd-320e30c97a05"},"limit":25,"chunkNumber":0,"cursor":{"stack":[]},"verticalColumns":false}]}'  
 
 
-
-
-  ## E arrumar o espaçamento
-
-
   curl 'https://www.notion.so/api/v3/syncRecordValues' \
   -H 'accept: */*' \
   -H 'accept-language: pt;q=0.6' \
   -H 'content-type: application/json' \
-  -H 'cookie: device_id=ebb8da8e-2ed6-4761-973b-90620c5e8414; notion_experiment_device_id=aed34408-4b00-47d4-a07a-79abd5649901; token_v2=v02%3Auser_token_or_cookies%3Ak8oBmSGaGcwGOP7C6ul7VQ65k-39W3MgBsaaGLQ2m9xqLcbuONKjn0MXfOiB7qllTU1J_ZrnDsmVz8fBm9QdKrkjlKYLN7tJdZjqJ3NdwPeXF25d8SxSgqn82zZPJTDWXqE3; notion_user_id=be696b5b-aac1-47ee-aee6-4bbf0059894c; NEXT_LOCALE=en-US; notion_users=[%22be696b5b-aac1-47ee-aee6-4bbf0059894c%22]; notion_cookie_consent={%22id%22:%2282a41727-b652-4011-a0a4-13a4499c039a%22%2C%22permission%22:{%22necessary%22:true%2C%22preference%22:true%2C%22performance%22:false%2C%22targeting%22:false}%2C%22policy_version%22:%22v8%22}; notion_check_cookie_consent=true; __cf_bm=4ILZjdL6tlLI_k7gDQfOjiJImbvCL7rkchdxtMH9gqA-1718294037-1.0.1.1-R4dF5kogFMHVTfpiFZ1G0iH0dIrkksSPCI1bzYg97Tn_pausGTG4FKgKU2z1kZ9ChwWVWsi3uYB_gEsjvjdJ1w; _cfuvid=.TkRmCn9Dz98aziHNdorpkWQu0uiQlF8mgiupMgJ1HM-1718294037474-0.0.1.1-604800000; notion_locale=en-US/user_choice' \
+  -H 'cookie: mytoken' \
   -H 'notion-audit-log-platform: web' \
   -H 'notion-client-version: 23.13.0.267' \
   -H 'origin: https://www.notion.so' \
@@ -133,7 +110,7 @@ curl 'https://file.notion.so/f/f/2229cc5c-3568-44f8-b4cd-320e30c97a05/3da6614d-e
   -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8' \
   -H 'accept-language: pt;q=0.9' \
   -H 'cache-control: max-age=0' \
-  -H 'cookie: file_token=v02%3Afile_token%3A3Z-87Q0BXSoLHwSZFVxTTQIq39D7tA3PkQvkY2igAH7Wn3zCg2oqU5y81Vl61mTZRF2XbUQ2aH1m_He9uwMI8OAqaU_8CBIaN5ezNRG_u0dlz38LpL75Txyu8tNmqE7Yd7F3lt-F-_HAXLkaaJaucaZMXpht; __cf_bm=OZ8AngzlPqlz6jN8q1PoVoLCR8MRjv6.foO70vP7ukc-1718419421-1.0.1.1-xBNhqnEJXlk4U_vKDjj.DbchUU0V08SSHGz9Q1TeS8_f6xTICQDwXcIrSLt_qpzYhQWZaeInHAwO.oU1yzxh_Q; _cfuvid=df1Nnm8oV0cS.jroJRD2406uHy1c3uw6hF5pF9IiiGk-1718419421814-0.0.1.1-604800000; notion_check_cookie_consent=true; notion_cookie_consent={%22id%22:%2282a41727-b652-4011-a0a4-13a4499c039a%22%2C%22permission%22:{%22necessary%22:true%2C%22preference%22:true%2C%22performance%22:false%2C%22targeting%22:false}%2C%22policy_version%22:%22v8%22}' \
+  -H 'cookie: mytoken' \
   -H 'if-modified-since: Fri, 29 Dec 2023 11:01:22 GMT' \
   -H 'if-none-match: "53fb557d7cfe68d77c67289348e13cf7"' \
   -H 'priority: u=0, i' \
@@ -152,7 +129,7 @@ curl 'https://file.notion.so/f/f/2229cc5c-3568-44f8-b4cd-320e30c97a05/3da6614d-e
 curl 'https://www.notion.so/signed/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F2229cc5c-3568-44f8-b4cd-320e30c97a05%2F3da6614d-eeb8-4f2a-acb3-39210c00d484%2FUntitled.png?table=block&id=0ca56a1f-dbb4-46b9-8c3a-20ab7ebae328&spaceId=2229cc5c-3568-44f8-b4cd-320e30c97a05&name=Untitled.png&download=true&userId=be696b5b-aac1-47ee-aee6-4bbf0059894c&cache=v2' \
   -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8' \
   -H 'accept-language: pt;q=0.9' \
-  -H 'cookie: device_id=ebb8da8e-2ed6-4761-973b-90620c5e8414; notion_experiment_device_id=aed34408-4b00-47d4-a07a-79abd5649901; token_v2=v02%3Auser_token_or_cookies%3Ak8oBmSGaGcwGOP7C6ul7VQ65k-39W3MgBsaaGLQ2m9xqLcbuONKjn0MXfOiB7qllTU1J_ZrnDsmVz8fBm9QdKrkjlKYLN7tJdZjqJ3NdwPeXF25d8SxSgqn82zZPJTDWXqE3; notion_user_id=be696b5b-aac1-47ee-aee6-4bbf0059894c; NEXT_LOCALE=en-US; notion_users=[%22be696b5b-aac1-47ee-aee6-4bbf0059894c%22]; notion_check_cookie_consent=false; __cf_bm=OZ8AngzlPqlz6jN8q1PoVoLCR8MRjv6.foO70vP7ukc-1718419421-1.0.1.1-xBNhqnEJXlk4U_vKDjj.DbchUU0V08SSHGz9Q1TeS8_f6xTICQDwXcIrSLt_qpzYhQWZaeInHAwO.oU1yzxh_Q; _cfuvid=df1Nnm8oV0cS.jroJRD2406uHy1c3uw6hF5pF9IiiGk-1718419421814-0.0.1.1-604800000; notion_check_cookie_consent=true; notion_cookie_consent={%22id%22:%2282a41727-b652-4011-a0a4-13a4499c039a%22%2C%22permission%22:{%22necessary%22:true%2C%22preference%22:true%2C%22performance%22:false%2C%22targeting%22:false}%2C%22policy_version%22:%22v8%22}; notion_locale=en-US%2Fuser_choice' \
+  -H 'cookie: mytoken' \
   -H 'priority: u=0, i' \
   -H 'referer: https://www.notion.so/Arquitetura-TCP-IP-2-camada-Internet-8121c0a563b5432caa98d9aa6e355faa' \
   -H 'sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Brave";v="126"' \
