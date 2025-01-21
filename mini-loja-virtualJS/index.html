@@ -1,0 +1,124 @@
+<html>
+    <head>
+        <title>Loja virtual</title>
+        <meta charset="utf-8" />
+        <style>
+            #produtos{
+                max-width: 900px;
+                margin:0 auto;
+                padding:0 2%;
+                display: flex;
+            }
+            
+            #carrinho{
+                max-width: 900px;
+                margin:0 auto;
+                padding:0 2%;
+                display: block;
+            }
+
+            .produto-single{
+                width:33.3%;
+                padding:0 20px;
+            }
+        </style>
+    </head>
+
+    
+    <body>
+
+        <h2>Vitrine:</h2>
+
+        <div id="produtos">
+         
+        </div><!--produtos-->
+
+        <h2>Carrinho:</h2>
+
+        <div id="carrinho">
+
+        </div><!--carrinho-->
+
+        <script>
+            const items = [
+                {
+                    id: 0,
+                    nome: 'camiseta',
+                    img: 'image.jpg',
+                    quantidade: 0
+                },
+                {
+                    id: 1,
+                    nome: 'calça',
+                    img: 'image.jpg',
+                    quantidade: 0
+                },
+                {
+                    id: 2,
+                    nome: 'tênis',
+                    img: 'image.jpg',
+                    quantidade: 0
+                }
+            ]
+
+
+            function inicializarLoja(){
+                let produtos = document.getElementById('produtos');
+
+                items.map((val)=>{
+                    produtos.innerHTML+= `
+                   
+                   <div class="produto-single">
+                        <img src="`+val.img+`" />
+                        <p>`+val.nome+`</p>
+                        <a key="`+val.id+`" href="#">Adicionar ao carrinho!<a/>
+                    </div>
+                   `;
+
+                })
+            };
+            inicializarLoja();
+
+            function atualizarCarrinho(){
+                let carrinho = document.getElementById('carrinho');
+                carrinho.innerHTML = "";
+
+                items.map((val)=>{
+                    if (val.quantidade > 0){
+                       carrinho.innerHTML+=`
+                            <p>`+val.nome+` | quantidade: `+val.quantidade+`</p>
+                            <hr>
+                        `;
+                    }
+                    
+                })
+
+            }
+
+            if (typeof (Storage) !== "undefined") {
+                sessionStorage= JSON.stringify([]); // Armazena o array vazio como uma string
+                
+                for (var key =0;key<3;key++){
+                    console.log();
+                    items[key].quantidade = sessionStorage.getItem(key);
+                }
+                atualizarCarrinho();
+            }
+
+           
+           var links = document.getElementsByTagName('a');
+
+           for(var num=0; num<links.length;num++){
+                links[num].addEventListener("click",function(){
+                    let key = this.getAttribute('key');
+                    items[key].quantidade++;
+                    sessionStorage.setItem(key,JSON.stringify(items[key].quantidade));
+                    atualizarCarrinho();
+                    return false
+                });
+           }
+        </script>
+
+    </body>
+
+</html>
