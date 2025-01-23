@@ -1,0 +1,101 @@
+/*Mais especifico, com ou sem >*/
+header.estilo1 > p {
+	color: red;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 30px;
+	font-weight: lighter;
+	font-style: oblique;
+
+	border: 1px solid black; /*dashed*/
+}
+header > p {
+	color: orange;
+}
+
+p {
+	color: white !important;
+	text-align: center;
+}
+header {
+	padding: 20px 20px 20px 20px;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*float*/
+.el1{
+	/*No inline não da para setar dimensões*/
+	/*display: inline-block;*/
+	display: block;
+	max-width: 100px;
+	width: 100%;
+	min-height: 100px;
+	height: 100%;
+	background: red;
+	border: 1px solid black;
+	vertical-align: middle;
+	margin: 10px 10px 10px 10px;
+
+	background-image: url("fo.jpg");
+	background-size: contain; /*cover*/
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+
+	position: relative; /*absolute, fixed*/
+	border-radius: 20px;
+	opacity: 0.5;
+	
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%) scale(1.0,1.0);
+
+}
+#umavez{
+	float: left;
+}
+
+.clear{
+	clear:both;
+}
+
+/*flex*/
+*{
+	box-sizing: border-box;
+}
+.container{
+	margin: 0 auto;
+	max-width: 1280px;
+	width: 100%;
+	padding: 0 2%;
+	background: green;
+
+	display: flex;/*Deixa um do lado do outro e acompanha a altura*/
+	flex-wrap: wrap; /*permitir quebrar*/
+}
+
+.content {
+	width: 33.3%;
+	height: 400px;
+	background: red;
+	border: 2px solid black;
+
+	/*Animação*/
+	transition: 2s;
+}
+/**nth-of-type*/
+.content:hover:nth-child(2){
+	background: black;
+}
+input{
+	transition: 2s;
+	width: 100px;
+	height: 50px;
+}
+input:focus{
+	width: 400px;
+	height: 100px;
+}
+
